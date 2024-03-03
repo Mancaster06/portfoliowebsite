@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        
+        }
+        .food-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .food-item {
+            margin-bottom: 10px;
+        }
+        .food-link {
+            text-decoration: none;
+            color: #b31717;
+            display: flex;
+            align-items: center;
+        }
+        .food-image {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Embark on a Technological Journey</h1>
+        <p>Explore technology, nature, and delicious food.</p>
+    </header>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Discover the latest in technology:</p>
+        <a href="https://www.example-tech-site.com">
+            <img src="https://via.placeholder.com/300x200" alt="Technology" width="300" height="200">
+        </a>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://www.example-nature-site.com/image1">
+                <img src="https://via.placeholder.com/300x200" alt="Nature Image 1" width="250" height="200">
+            </a>
+            <a href="https://www.example-nature-site.com/image2">
+                <img src="https://via.placeholder.com/300x200" alt="Nature Image 2" width="250" height="200">
+            </a>
+            <a href="https://www.example-nature-site.com/image3">
+                <img src="https://via.placeholder.com/300x200" alt="Nature Image 3" width="250" height="200">
+            </a>
+        </div>
+    </section>
+    
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul class="food-list">
+            <li class="food-item">
+                <a class="food-link" href="https://www.example-food-site.com/burger">
+                    <img class="food-image" src="https://via.placeholder.com/100x100" alt="Burger">
+                    Burger
+                </a>
+            </li>
+            <li class="food-item">
+                <a class="food-link" href="https://www.example-food-site.com/pizza">
+                    <img class="food-image" src="https://via.placeholder.com/100x100" alt="Pizza">
+                    Pizza
+                </a>
+            </li>
+            <li class="food-item">
+                <a class="food-link" href="https://www.example-food-site.com/sushi">
+                    <img class="food-image" src="https://via.placeholder.com/100x100" alt="Sushi">
+                    Sushi
+                </a>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
